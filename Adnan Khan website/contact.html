@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Contact Adnan Khan, a top web developer in Bangladesh, to start your website, landing page, or frontend project."
+    />
+    <meta name="author" content="Adnan Khan" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#050b1c" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact a Web Developer in Bangladesh | Adnan Khan" />
+    <meta property="og:description" content="Tell Adnan Khan about your website, landing page, or frontend project." />
+    <meta property="og:locale" content="en_US" />
+    <title>Contact a Web Developer in Bangladesh | Adnan Khan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="contact-page">
+     <a class="skip-link" href="#contact">Skip to contact form</a>
+     <div class="galaxy-nebula" aria-hidden="true"></div>
+     <div class="galaxy-dust" aria-hidden="true"></div>
+     <div class="galaxy-grid" aria-hidden="true"></div>
+     <div class="galaxy-vignette" aria-hidden="true"></div>
+     <div class="page-loader" role="status" aria-label="Loading page">
+       <span class="loader-orbit" aria-hidden="true">
+         <span class="loader-core"></span>
+         <span class="loader-ring"></span>
+         <span class="loader-bead"></span>
+       </span>
+       <span class="loader-text">Initializing</span>
+     </div>
+     <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Adnan Khan home">
+          <span>ADNAN KHAN</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="index.html#work">Work</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#about">About</a>
+          <a href="index.html#process">Process</a>
+          <a href="#contact" class="is-active" aria-current="page">Contact</a>
+          <a class="btn btn-primary nav-cta" href="#contact">Let's work together <span aria-hidden="true">→</span></a>
+        </nav>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+     </header>
+
+     <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+       <nav aria-label="Mobile navigation">
+         <a href="index.html#work">Work</a>
+         <a href="index.html#services">Services</a>
+         <a href="index.html#about">About</a>
+         <a href="index.html#process">Process</a>
+         <a href="#contact" class="is-active" aria-current="page">Contact</a>
+         <a class="btn btn-primary nav-cta" href="#contact">Let's work together <span aria-hidden="true">→</span></a>
+       </nav>
+     </div>
+     <main>
+       <section id="contact" class="cta-section" aria-labelledby="contact-heading">
+        <div class="container contact-grid reveal">
+          <div class="cta-inner">
+            <p class="eyebrow eyebrow-light">Let's build the next thing</p>
+            <h1 id="contact-heading">Need a website that feels like it belongs in the room with your goals?</h1>
+            <p class="contact-intro">Tell me what you are building, where you are stuck, and what a useful next step looks like.</p>
+            <p class="contact-fallback">Prefer email? <a href="mailto:md.adnankhan.developer@gmail.com">md.adnankhan.developer@gmail.com</a></p>
+          </div>
+          <div class="contact-panel">
+            <form id="contact-form" novalidate aria-describedby="form-help">
+              <p id="form-help" class="form-help">This form prepares an email in your default mail app. Your message is not stored on this website.</p>
+              <div class="form-row">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" maxlength="80" required aria-describedby="name-error" />
+                <span class="field-error" id="name-error"></span>
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error" />
+                <span class="field-error" id="email-error"></span>
+              </div>
+              <div class="form-row">
+                <label for="project-type">Project type</label>
+                <select id="project-type" name="project-type" required aria-describedby="project-type-error">
+                  <option value="">Select a service</option>
+                  <option>Landing pages</option>
+                  <option>Website builds</option>
+                  <option>UI systems</option>
+                  <option>Responsive design</option>
+                  <option>Conversion design</option>
+                  <option>Frontend refinement</option>
+                  <option>Design-to-code</option>
+                  <option>AI-assisted execution</option>
+                  <option>Other</option>
+                </select>
+                <span class="field-error" id="project-type-error"></span>
+              </div>
+              <div class="form-row">
+                <label for="description">Project description</label>
+                <textarea id="description" name="description" rows="5" maxlength="2000" required aria-describedby="description-error"></textarea>
+                <span class="field-error" id="description-error"></span>
+              </div>
+              <button class="btn btn-light form-submit" type="submit">
+                <span class="submit-label">Prepare email <span aria-hidden="true">→</span></span>
+                <span class="submit-loading" aria-hidden="true">Preparing…</span>
+              </button>
+              <p class="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+       </section>
+     </main>
+
+     <footer class="site-footer">
+       <div class="container footer-grid reveal">
+         <div class="footer-brand">
+           <div class="footer-mark" aria-hidden="true">
+             <span></span>
+             <span></span>
+             <span></span>
+           </div>
+           <p>Independent web developer building clear, strategic interfaces with real-world clarity.</p>
+         </div>
+
+         <div>
+           <h3>Navigate</h3>
+           <ul>
+             <li><a href="index.html#work">Work</a></li>
+             <li><a href="index.html#services">Services</a></li>
+             <li><a href="index.html#about">About</a></li>
+             <li><a href="#contact">Contact</a></li>
+           </ul>
+         </div>
+
+         <div>
+           <h3>Services</h3>
+           <ul>
+             <li><a href="index.html#services">Landing pages</a></li>
+             <li><a href="index.html#services">Responsive design</a></li>
+             <li><a href="index.html#services">Frontend builds</a></li>
+             <li><a href="index.html#services">UI systems</a></li>
+           </ul>
+         </div>
+
+         <div>
+           <h3>Connect</h3>
+           <ul>
+             <li><a href="mailto:md.adnankhan.developer@gmail.com">md.adnankhan.developer@gmail.com</a></li>
+           </ul>
+         </div>
+       </div>
+
+       <div class="footer-bottom">
+         <div class="container footer-bottom-row reveal">
+           <p>© 2026 Adnan Khan</p>
+           <p class="legal-note">Built with HTML, CSS, and JavaScript.</p>
+         </div>
+       </div>
+     </footer>
+
+     <noscript>
+       <style>
+         .page-loader { display: none; }
+       </style>
+       <p class="noscript-message">JavaScript is disabled. You can contact Adnan directly by email.</p>
+     </noscript>
+     <script src="script.js"></script>
+</body>
+</html>
